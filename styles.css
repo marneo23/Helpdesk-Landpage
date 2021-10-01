@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+/* Contenedor flex que separa por un lado los logos y por otro los botones */
+
+.flexLogoContainer{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top:10px;
+}
+
+.navLogosBA{
+    display:flex;
+    align-items:center;
+    margin-left: -50px;
+}
+.logoba{
+    height:50px;
+}
+.navButtonsBA{
+margin-right: -50px;
+display:flex;
+align-items: center;
+}
+.navButtonsBA a{
+    margin: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    font-size:0.8em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.botonLogin {
+    margin-left: 5px;
+	background-color:#dedede;
+	border-radius:5px;
+	color:#000000;
+    font-size: 1.2em;
+	padding:14px 24px;
+	text-decoration: none;
+}
+.botonLogin:hover {
+	background-color:#a6a6a6;
+    cursor:pointer
+}
+.botonLogin:active {
+	position:relative;
+	top:1px;
+}
+
+/* Fin del nav bar, sigue el titulo */
+.titulos{
+    display: block;
+    text-align: center;
+}
+h1 {
+font-size: 3em;
+font-family: 'Open Sans', sans-serif;
+text-shadow:  3px 2px 0px gray;
+margin-top: -5px;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 0px gray
+}
+h3{
+ font-family: 'Open Sans', sans-serif;
+font-size: 1em;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    text-align: center;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.infoContacto{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 65px;
+    
+}
+
+.horarios{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+margin-right: 20px;
+}
+.horarios img{
+height:50px;
+margin-right: 10px;
+
+}
+
+.telefono{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+margin-right: 20px;
+}
+.telefono img{
+    height:50px;
+    margin-right: 10px;
+    }
+
+.urgencias{
+   display: flex;
+   align-items: center;
+   margin-left: 20px;
+margin-right: 20px;
+   
+ }
+.urgencias img{
+        height:50px;
+        margin-right: 10px;
+        }
+
+ /* ahí termina el encabezado, lo que sigue son los articulos con links */
+
+article img{
+    height:150px;
+}
+article p{
+    text-align: center;
+    max-width:200px;
+}
+article a{
+    display: inline;
+ text-decoration: none;
+ font-family: 'Open Sans', sans-serif;
+ background-color:#fdd406;
+	border-radius:3px;
+	color: black;;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	padding:10px 20px;
+	text-decoration:none;
+    text-align: center;
+    margin-top: 15px
+}
+
+article a:hover {
+	background-color:#fcd959;
+}
+.enlacesContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top:25px;
+}
+
+.usuarioSigehos{
+display:flex;
+flex-direction: column;
+align-items:center;
+}
