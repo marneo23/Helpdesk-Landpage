@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Mesa de Ayuda Salud</title>
 </head>
@@ -18,11 +19,14 @@
                 </a>
                 <a href="https://www.buenosaires.gob.ar/"><img class="logoba" src="assets/img/ba_logo.png" alt="Logo BA"></a>
             </div>
-            <div class="navButtonsBA">
+            <div class="navButtonsBA" id="menudrop">
                 <a class="botonNav" href="http://mesadeayudasalud.msgc.gcba/knowledgebase.php">BASE DE CONOCIMIENTOS</a>
                 <a class="botonNav" href="#">PREGUNTAS FRECUENTES</a>
                 <a class="botonLogin" href="http://mesadeayudasalud.msgc.gcba/admin/">Log In</a>
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="dropIcons()">
+                <i class="fa fa-bars fa-2x"></i>
+              </a>
         </div>
     </nav>
     <main>
@@ -78,6 +82,18 @@
 
         </div>
     </main>
+
+
+    <script>
+        function dropIcons() {
+          var x = document.getElementById("menudrop");
+          if (x.style.display === "flex") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "flex";
+          }
+        }
+        </script>
 </body>
 
 </html>
