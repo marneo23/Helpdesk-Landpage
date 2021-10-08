@@ -175,7 +175,7 @@ align-items:center;
   }
 
 
-  @media (max-width: 765erpx){
+  @media (max-width: 765px){
     .infoContacto{
         display: flex;
 flex-direction: column;
