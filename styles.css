@@ -175,12 +175,8 @@ align-items:center;
   }
 
 
-<<<<<<< HEAD
   @media (max-width: 765px)
   {
-=======
-  @media (max-width: 765px){
->>>>>>> 48059e98f6c7e396fcd448b96165464831591665
     .infoContacto{
         display: flex;
 flex-direction: column;
